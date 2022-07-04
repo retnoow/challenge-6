@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: black;
+    font-family: 'Open Sans';
+    color: white;
+    font-size: 16px;
+}
+
+h1{
+    font-family: 'Bebas Neue';
+    letter-spacing: 5px;
+}
+
+.navbar{
+    min-height: 80px;
+    font-size: 14px;
+    z-index: 100;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+
+.navbar li{
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+.navbar-brand{
+    letter-spacing: 5px;
+    padding-right: 20px;
+}
+
+.img-fluid{
+    background-image: url("./main-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lead button {
+    margin-top: 30px;
+}
+
+section{
+    min-height: 100vh;
+    padding: 14vh 0;
+}
+
+
+.scroll{
+    position: absolute;
+    margin-right: -40px;
+    bottom: 30px;
+    right: 50%; 
+}
+
+.scroll a{
+    color: white;
+    text-decoration: none;
+}
+
+.scroll p{
+    margin: -5px;
+}
+
+/* login */
+
+.login-bg{
+    background: #08e08de8; 
+}
